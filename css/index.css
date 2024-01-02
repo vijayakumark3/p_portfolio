@@ -62,10 +62,11 @@ body
 {
 	float: left;
 	line-height: 50px;
-	font-size: 33px;
-	color: #f4f4f4;
-	font-weight: 500;
+	font-size: 30px;
+	color: var(--white2-clr);
+	font-weight: 440;
 }
+
 .navbar i#menuicon
 {
 	display: none;

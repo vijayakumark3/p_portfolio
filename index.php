@@ -8,7 +8,7 @@ include "php/config.php";
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vijayakumar K - Front End Web Developer</title>
+	<title>Vijayakumar K - Portfolio</title>
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive_index.css">
@@ -16,7 +16,7 @@ include "php/config.php";
 </head>
 <body>
 	<div class="navbar">
-		<h2>Portfolio</h2>
+		<h2>FRONTEND WEB DEV</h2>
 
 		<i id="menuicon" class="fa-solid fa-bars"></i>
 		<!-- 
@@ -32,7 +32,9 @@ include "php/config.php";
 		<div class="clearfix"></div>
 	</div>
 
+
 	<!-- <div class="banner"></div> -->
+
 
 	<div class="slideshow_container">
         <div class="mySlides">
@@ -40,7 +42,7 @@ include "php/config.php";
         </div>
 
         <div class="mySlides">
-            <img src="images/t2.jpg">
+            <img src="images/t2.png">
         </div>
         
         <div class="mySlides">
@@ -80,8 +82,8 @@ include "php/config.php";
 				<td>Tamil (Native), English (Intermediate), Telugu (Basic)</td>
 			</tr>
 			<tr>
-				<td>Nationality</td>
-				<td>Indian/Bharathiya</td>
+				<td>Location</td>
+				<td>Tamil Nadu, India</td>
 			</tr>
 			<tr>
 				<td class="hrs" colspan="2"><hr></td>
