@@ -16,7 +16,7 @@ include "php/config.php";
 </head>
 <body>
 	<div class="navbar">
-		<h2>FRONTEND WEB DEV</h2>
+		<h2>FRONTEND DEVELOPER</h2>
 
 		<i id="menuicon" class="fa-solid fa-bars"></i>
 		<!-- 
@@ -56,11 +56,11 @@ include "php/config.php";
 	<div id="about_me" class="about">
 		<h2 class="content_hdns">About Me</h2>
 		<p>
-			Hi, I've been learning Web Development for the past 2-3 years as a Self-Taught.
+			Hi, I've been learning Web Development (Frontend Primarily) as a Self-Taught for 2-3 years, an Internet-made coder/developer.
 			<br>
-			I learned this thing using free internet resources, I have tried some projects independently
+			I have tried some projects independently, My interest and passion in tech always brought me back into it.
 			<br>
-			I have stopped learning and practicing so many times in between for various reasons, But my interest and passion in tech brought me back into it.
+			#FrontendDevelopment #WebDevelopment #SelfTaught #TechEnthusiast
 		</p>
 	</div>
 
@@ -83,13 +83,17 @@ include "php/config.php";
 			</tr>
 			<tr>
 				<td>Location</td>
-				<td>Tamil Nadu, India</td>
+				<td>Bangalore, Karnataka</td>
 			</tr>
+			<!-- <tr>
+				<td>Local Time</td>
+				<td></td>
+			</tr> -->
 			<tr>
 				<td class="hrs" colspan="2"><hr></td>
 			</tr>
 			<tr>
-				<td class="shortbio" colspan="2" align="center">Introvert, Nerd, Night Owl, Explorer</td>
+				<td class="shortbio" colspan="2" align="center">Nerd, Night Owl, Explorer</td>
 			</tr>
 		</table>
 	</div>
@@ -101,7 +105,7 @@ include "php/config.php";
 		<div class="skills_tbl">
 			<table cellspacing="10px">
 				<tr>
-					<td colspan="2"><h3 class="hdn_for_tbl2_val">Industry skills</h3></td>
+					<td colspan="2"><h3 class="hdn_for_tbl2_val">Front End</h3></td>
 				</tr>
 				<tr>
 					<td>HTML</td>
@@ -113,25 +117,17 @@ include "php/config.php";
 				</tr>
 				<tr>
 					<td>JavaScript</td>
-					<td class="progress_bar_tds"><progress value="40" min="0" max="100"></progress>&nbsp;40%</td>
+					<td class="progress_bar_tds"><progress value="45" min="0" max="100"></progress>&nbsp;45%</td>
 				</tr>
 				<tr>
-					<td colspan="2"><h3 class="hdn_for_tbl2_val">Others</h3></td>
+					<td colspan="2"><h3 class="hdn_for_tbl2_val">Framworks/Librarys</h3></td>
 				</tr>
 				<tr>
 					<td>React</td>
-					<td class="progress_bar_tds"><progress value="20" min="0" max="100"></progress>&nbsp;20%</td>
+					<td class="progress_bar_tds"><progress value="30" min="0" max="100"></progress>&nbsp;30%</td>
 				</tr>
 				<tr>
-					<td>Git</td>
-					<td class="progress_bar_tds"><progress value="42" min="0" max="100"></progress>&nbsp;42%</td>
-				</tr>
-				<tr>
-					<td>GitHub</td>
-					<td class="progress_bar_tds"><progress value="40" min="0" max="100"></progress>&nbsp;40%</td>
-				</tr>
-				<tr>
-					<td class="hdn_for_tbl2_val">Extras (I know before)</td>
+					<td colspan="2"><h3 class="hdn_for_tbl2_val">Back End</h3></td>
 				</tr>
 				<tr>
 					<td>Php</td>
@@ -142,7 +138,18 @@ include "php/config.php";
 					<td class="progress_bar_tds"><progress value="80" min="0" max="100"></progress>&nbsp;80%</td>
 				</tr>
 				<tr>
-					<td colspan="2"><h3 class="hdn_for_tbl2_val">Designing Skills</h3></td>
+					<td colspan="2"><h3 class="hdn_for_tbl2_val">Dev Tools</h3></td>
+				</tr>
+				<tr>
+					<td>Git</td>
+					<td class="progress_bar_tds"><progress value="45" min="0" max="100"></progress>&nbsp;45%</td>
+				</tr>
+				<tr>
+					<td>GitHub</td>
+					<td class="progress_bar_tds"><progress value="49" min="0" max="100"></progress>&nbsp;49%</td>
+				</tr>
+				<tr>
+					<td colspan="2"><h3 class="hdn_for_tbl2_val">Design Tools</h3></td>
 				</tr>
 				<tr>
 					<td>Canva</td>
@@ -150,10 +157,10 @@ include "php/config.php";
 				</tr>
 				<tr>
 					<td>Figma</td>
-					<td class="progress_bar_tds"><progress value="28" min="0" max="100"></progress>&nbsp;28%</td>
+					<td class="progress_bar_tds"><progress value="30" min="0" max="100"></progress>&nbsp;30%</td>
 				</tr>
 				<tr>
-					<td colspan="2"><h3 class="hdn_for_tbl2_val">Performance Skills</h3></td>
+					<td colspan="2"><h3 class="hdn_for_tbl2_val">Others</h3></td>
 				</tr>
 				<tr>
 					<td>Typing Speed</td>
@@ -204,7 +211,7 @@ include "php/config.php";
 
 
 	<div class="footer">
-		<p>Copyright &copy; 2023 - Designed by VIJAYAKUMAR K</p>
+		<p>Copyright &copy; 2024 - Designed by VIJAYAKUMAR</p>
 	</div>
 	
 

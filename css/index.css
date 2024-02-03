@@ -200,9 +200,9 @@ body
 }
 .about p
 {
-	letter-spacing: 0.1px;
+	letter-spacing: 0.3px;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 32px;
 	font-weight: 400;
 }
 
@@ -524,8 +524,8 @@ body
 	width: 59px;
 	height: 59px;
 	margin: 0 5px;
-	background: var(--green2-clr);
-	color: var(--green3-clr);
+	color: var(--green2-clr);
+	background: var(--black2-clr);
 	border-radius: 25%;
 	box-shadow: 0 0 30px #c4c4c4;
 	display: flex;
@@ -535,8 +535,8 @@ body
 }
 .socialsNLinks .container .box:hover
 {
-	color: var(--green2-clr);
-	background: var(--black2-clr);
+	background: var(--green2-clr);
+	color: var(--green3-clr);
 }
 .socialsNLinks .container .box i
 {
