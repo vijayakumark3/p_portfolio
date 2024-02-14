@@ -29,7 +29,8 @@ body
 	padding: 0;
 	background-color: var(--white2-clr);
 	box-sizing: border-box;
-	font-family: Century Gothic;
+/*	font-family: Century Gothic;*/
+	font-family: monospace;
 	max-width: 1400px;
 }
 
@@ -186,7 +187,7 @@ body
 {
 	width: 100%;
 	height: auto;
-	padding: 30px 50px;
+	padding: 30px 60px;
 	box-sizing: border-box;
 	font-family: monospace;
 }
@@ -325,6 +326,52 @@ body
 	background: var(--green3-clr);
 	border-radius: 10px;
 }
+
+
+
+
+
+/* cNc_Container....................... */
+
+.coursesNcertifes
+{
+	margin: 0;
+	padding: 60px;
+	box-sizing: border-box;
+}
+.cNc_Container
+{
+	display: grid;
+	grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
+	grid-gap: 60px;
+	padding: 20px;
+}
+.cNc_Container .box
+{
+	padding: 20px;
+/*	width: 400px;*/
+	max-width: ;
+	height: auto;
+	border: 1px solid black;
+}
+.cNc_Container .box img
+{
+	width: 100%;
+	height: auto;
+}
+.cNc_Container .box h3
+{
+	font-family: var(--f1-font-family);
+	font-size: 14px;
+}
+.cNc_Container .box .dots:after
+{
+	content: "\00B7";  /* Unicode character for the dot (middle dot) */
+	/*margin-left: 5px;  Adjust spacing between the dot and words */
+	font-weight: 900; /* Make the dot bolder */
+	font-size: 16px; /* Adjust the size of the dot */
+}
+
 
 
 /* Contact us....................... */

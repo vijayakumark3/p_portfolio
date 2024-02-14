@@ -8,7 +8,7 @@ include "php/config.php";
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vijayakumar K - Portfolio</title>
+	<title>Vijayakumar K - Frontend Web Developer Portfolio</title>
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive_index.css">
@@ -26,7 +26,7 @@ include "php/config.php";
 		<ul class="" id="ulcont">
 			<li><a href="#about_me">About</a></li>
 			<li><a href="#contact_me">Contact</a></li>
-			<li><a href="docs/resume.pdf" download="Resume.pdf"><i id="downloadicon" class="fa-solid fa-download"></i> Resume</a></li>
+			<li><a href="docs/Resume.pdf" download="Resume.pdf"><i id="downloadicon" class="fa-solid fa-download"></i> Resume</a></li>
 		</ul>
 
 		<div class="clearfix"></div>
@@ -59,8 +59,6 @@ include "php/config.php";
 			Hi, I've been learning Web Development (Frontend Primarily) as a Self-Taught for 2-3 years, an Internet-made coder/developer.
 			<br>
 			I have tried some projects independently, My interest and passion in tech always brought me back into it.
-			<br>
-			#FrontendDevelopment #WebDevelopment #SelfTaught #TechEnthusiast
 		</p>
 	</div>
 
@@ -78,12 +76,12 @@ include "php/config.php";
 				<td>Web Development (Front-End)</td>
 			</tr>
 			<tr>
-				<td>Known Languages</td>
+				<td>Spoken Languages</td>
 				<td>Tamil (Native), English (Intermediate), Telugu (Basic)</td>
 			</tr>
 			<tr>
 				<td>Location</td>
-				<td>Bangalore, Karnataka</td>
+				<td>Bangalore, Karnataka - 560103</td>
 			</tr>
 			<!-- <tr>
 				<td>Local Time</td>
@@ -92,9 +90,9 @@ include "php/config.php";
 			<tr>
 				<td class="hrs" colspan="2"><hr></td>
 			</tr>
-			<tr>
+			<!-- <tr>
 				<td class="shortbio" colspan="2" align="center">Nerd, Night Owl, Explorer</td>
-			</tr>
+			</tr> -->
 		</table>
 	</div>
 
@@ -159,24 +157,74 @@ include "php/config.php";
 					<td>Figma</td>
 					<td class="progress_bar_tds"><progress value="30" min="0" max="100"></progress>&nbsp;30%</td>
 				</tr>
-				<tr>
+				<!-- <tr>
 					<td colspan="2"><h3 class="hdn_for_tbl2_val">Others</h3></td>
 				</tr>
 				<tr>
 					<td>Typing Speed</td>
 					<td>50 WPM with 96% accuracy</td>
-				</tr>			
+				</tr> -->			
 			</table>
 		</div>
 	</div>
 
+
+	<div class="coursesNcertifes">
+		<h2 class="content_hdns">Courses & Certifications</h2>
+
+		<div class="cNc_Container">
+			<!-- <div class="box">
+				<img src="images/certificates/JavaScript for Beginners.png">
+				<h3>META Front End Development</h3>
+				<p>Coursera - Parsuing form Fab 2024</p>
+			</div> -->
+			<div class="box">
+				<!-- <img src="images/certificates/JavaScript for Beginners.png"> -->
+				<h3>JavaScript for Beginners</h3>
+				<p>GUVI - Completed on Dec 2023</p>
+			</div>
+			<div class="box">
+				<!-- <img src="images/certificates/DCA.jpg"> -->
+				<h3>DCA (MS-OFFICE, C, C++)</h3>
+				<p>IDEA Computer Education - Completed on Oct 2018</p>
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div class="coursesNcertifes">
+		<h2 class="content_hdns">Projects</h2>
+
+		<div class="cNc_Container">
+			<div class="box">
+				<!-- <img src="images/certificates/JavaScript for Beginners.png"> -->
+				<h3>Personal Blog</h3>
+				<a target="_blank" href="https://codexd.netlify.app">Visit Site</a>
+				<span class="dots"></span>
+				<a target="_blank" href="https://github.com/vijayakumark3/codexd">Code</a>
+			</div>
+			<div class="box">
+				<!-- <img src="images/certificates/JavaScript for Beginners.png"> -->
+				<h3>Weather Web App</h3>
+				<a target="_blank" href="https://getmyweatherly.netlify.app">Visit Site</a>
+				<span class="dots"></span>
+				<a target="_blank" href="https://github.com/vijayakumark3/getmyweatherly">Code</a>
+			</div>
+			<div class="box">
+				<!-- <img src="images/certificates/DCA.jpg"> -->
+				<h3>My YouTube Channel</h3>
+				<a target="_blank" href="https://www.youtube.com/channel/UCN8z5hb1GU16JS_KisKtufQ">Visit Channel</a>
+			</div>
+		</div>
+	</div>
 
 	<div id="contact_me" class="contact">
 		<div class="box">
 			<h2 class="content_hdns">CONTACT</h2>
 			<form action="" method="post">
 				<!-- <label>Your Name</label> -->
-				<input type="name" name="urName" placeholder="Your name" required>
+				<input type="text" name="urName" placeholder="Your name" required>
 				<!-- <label>Your Email</label> -->
 				<input type="email" name="urEmail" placeholder="Your email" required>
 				<!-- <label>Message</label> -->

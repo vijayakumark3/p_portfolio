@@ -112,6 +112,18 @@
 	}
 
 
+
+	/* ----- courses ----- */
+	.cNc_Container
+	{
+		display: grid;
+		grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr);
+		grid-gap: 60px;
+		padding: 20px;
+	}
+
+
+
 	/* ----- contact ----- */
 	.contact
 	{
@@ -294,6 +306,24 @@
 	{
 		height: 4px;
 	}
+
+
+
+
+
+	/* ----- courses ----- */
+	.cNc_Container
+	{
+		display: grid;
+		grid-template-columns: minmax(100px, 1fr);
+		grid-gap: 60px;
+		padding: 20px;
+	}
+
+
+
+
+
 
 	.contact
 	{
