@@ -8,15 +8,15 @@ include "php/config.php";
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Vijayakumar K - Frontend Web Developer Portfolio</title>
-	<link rel="icon" type="image/png" href="images/favicon.png">
+	<title>Vijayakumar K - Software & Web Developer Portfolio</title>
+	<link rel="icon" type="image/png" href="assets/images/favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive_index.css">
 	<script src="https://kit.fontawesome.com/e370f778c1.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<div class="navbar">
-		<h2>FRONTEND DEVELOPER</h2>
+		<h2>WEB DEVELOPER</h2>
 
 		<i id="menuicon" class="fa-solid fa-bars"></i>
 		<!-- 
@@ -26,7 +26,7 @@ include "php/config.php";
 		<ul class="" id="ulcont">
 			<li><a href="#about_me">About</a></li>
 			<li><a href="#contact_me">Contact</a></li>
-			<li><a href="docs/Resume.pdf" download="Resume.pdf"><i id="downloadicon" class="fa-solid fa-download"></i> Resume</a></li>
+			<li><a href="assets/docs/Resume.pdf" download="Resume.pdf"><i id="downloadicon" class="fa-solid fa-download"></i> Resume</a></li>
 		</ul>
 
 		<div class="clearfix"></div>
@@ -38,15 +38,15 @@ include "php/config.php";
 
 	<div class="slideshow_container">
         <div class="mySlides">
-            <img src="images/t1.jpg">
+            <img src="assets/images/t1.jpg">
         </div>
 
         <div class="mySlides">
-            <img src="images/t2.png">
+            <img src="assets/images/t2.png">
         </div>
         
         <div class="mySlides">
-          <img src="images/t3.jpg">
+          <img src="assets/images/t3.png">
         </div>
         
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -56,9 +56,8 @@ include "php/config.php";
 	<div id="about_me" class="about">
 		<h2 class="content_hdns">About Me</h2>
 		<p>
-			Hi, I've been learning Web Development (Frontend Primarily) as a Self-Taught for 2-3 years, an Internet-made coder/developer.
-			<br>
-			I have tried some projects independently, My interest and passion in tech always brought me back into it.
+			I have been a fan of Internet and Computers since I was introduced to it, I've been learning Web Development as a SelfTaught for 2-3 years, an Internet-made developer. and later took some online courses, and I have tried some projects
+			independently. I am looking forward an opportunity
 		</p>
 	</div>
 
@@ -73,7 +72,7 @@ include "php/config.php";
 			</tr>
 			<tr>
 				<td>Profession</td>
-				<td>Web Development (Front-End)</td>
+				<td>Software / Web Development</td>
 			</tr>
 			<tr>
 				<td>Spoken Languages</td>
@@ -174,17 +173,17 @@ include "php/config.php";
 
 		<div class="cNc_Container">
 			<!-- <div class="box">
-				<img src="images/certificates/JavaScript for Beginners.png">
+				<img src="assets/images/certificates/JavaScript for Beginners.png">
 				<h3>META Front End Development</h3>
 				<p>Coursera - Parsuing form Fab 2024</p>
 			</div> -->
 			<div class="box">
-				<!-- <img src="images/certificates/JavaScript for Beginners.png"> -->
+				<!-- <img src="assets/images/certificates/JavaScript for Beginners.png"> -->
 				<h3>JavaScript for Beginners</h3>
 				<p>GUVI - Completed on Dec 2023</p>
 			</div>
 			<div class="box">
-				<!-- <img src="images/certificates/DCA.jpg"> -->
+				<!-- <img src="assets/images/certificates/DCA.jpg"> -->
 				<h3>DCA (MS-OFFICE, C, C++)</h3>
 				<p>IDEA Computer Education - Completed on Oct 2018</p>
 			</div>
@@ -198,21 +197,21 @@ include "php/config.php";
 
 		<div class="cNc_Container">
 			<div class="box">
-				<!-- <img src="images/certificates/JavaScript for Beginners.png"> -->
+				<!-- <img src="assets/images/certificates/JavaScript for Beginners.png"> -->
 				<h3>Personal Blog</h3>
 				<a target="_blank" href="https://codexd.netlify.app">Visit Site</a>
 				<span class="dots"></span>
 				<a target="_blank" href="https://github.com/vijayakumark3/codexd">Code</a>
 			</div>
 			<div class="box">
-				<!-- <img src="images/certificates/JavaScript for Beginners.png"> -->
+				<!-- <img src="assets/images/certificates/JavaScript for Beginners.png"> -->
 				<h3>Weather Web App</h3>
 				<a target="_blank" href="https://getmyweatherly.netlify.app">Visit Site</a>
 				<span class="dots"></span>
 				<a target="_blank" href="https://github.com/vijayakumark3/getmyweatherly">Code</a>
 			</div>
 			<div class="box">
-				<!-- <img src="images/certificates/DCA.jpg"> -->
+				<!-- <img src="assets/images/certificates/DCA.jpg"> -->
 				<h3>My YouTube Channel</h3>
 				<a target="_blank" href="https://www.youtube.com/channel/UCN8z5hb1GU16JS_KisKtufQ">Visit Channel</a>
 			</div>
